@@ -20,7 +20,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-               className="pb-4 text-6xl font-thin tracking-tight lg:mt-1/2 lg:text-8xl">
+               className="pb-4 text-5xl font-thin tracking-tight lg:mt-1/2 lg:text-8xl">
                 Manish Prasad 
                 </ motion.h1>
                 <motion.span
