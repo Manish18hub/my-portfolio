@@ -29,21 +29,25 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  
   {
     
     title: "Dice Roll Game",
     image: project1 ,
     description:
       "Developed an engaging web-based dice roll game, where players take turns rolling a pair of dice, accumulating points with each roll.",
-    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"]
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    url: "https://diceroll-game-mp.netlify.app/",
   },
   {
     title: "Paint Application",
     image: project2,
     description:
       "Paint is a graphic and painting tool that can be used to create both simple and complex drawings.",
-    technologies: ["Java", "Awt", "Swing"]
+    technologies: ["Java", "Awt", "Swing"],
+    url: "https://github.com/Manish18hub/Paint" 
   },
+  
  
 ];
 
