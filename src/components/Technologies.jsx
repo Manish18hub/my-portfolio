@@ -4,7 +4,6 @@ import { RiHtml5Fill } from "react-icons/ri";
 import { RiCss3Fill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { RiReactjsFill } from "react-icons/ri"
-import { RiAngularjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaDatabase } from "react-icons/fa";
 import { animate, motion } from "framer-motion";
@@ -90,13 +89,7 @@ const Technologies = () => {
             className="=rounded-2xl border-4 border-neutral-800 p-3">
                 <RiReactjsFill className="text-7xl text-cyan-400"/>
             </motion.div>
-            <motion.div
-             variants={iconVariants(5)}
-             initial="initial"
-             animate="animate"
-            className="=rounded-2xl border-4 border-neutral-800 p-3">
-                <RiAngularjsFill className="text-7xl text-red-600"/>
-            </motion.div>
+            
             <motion.div 
              variants={iconVariants(3.5)}
              initial="initial"
